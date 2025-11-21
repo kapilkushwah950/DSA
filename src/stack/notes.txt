@@ -1,0 +1,38 @@
+stack
+-------
+1.it is a linear ds.
+2.it follows last in first out principle [LIFO]last in first out.
+3.operation
+  PUSh - insert an elemant in the stack
+  pop -  remove/delete a  elements from stack
+  peek - top most value in the stack
+4. all opertion of stack data structure work on the basis of top.
+5.condition
+  a. TOP ==-1,stack is empty
+  b. TOP == 0 ,single elemant in the stack
+  c. TOP == size-1,stack is full
+  d. TOP == size, stack overflow
+ 6. example
+    program1
+ 7.stack class
+  1a.stack class store in java.util package.
+  a. stack calss is a child class of vector class.
+  b. stack class is a synchronized class.
+  c. stack class also works on the basis of indexing.
+  d. stack class is a generic class.
+  e. this generic class use only wrapper class.
+ Wrapper classess
+ --------------------
+   data-type           wrapper-class-name
+ -------------------------------------------
+    byte                     Byte
+    short                    Short
+    int                      INTEGER
+    long                     Long
+    float                    Float
+    double                   Double
+    char                     Charecter
+    boolean                  Boolean
+
+ 8. Example
+   program2

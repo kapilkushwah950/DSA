@@ -1,0 +1,17 @@
+Queue
+------
+1. queue is a linear data structer.
+2. queue follows FIFO principle [FIRST-IN-FIRST-OUT]
+3. Operation
+-------
+        |-Enqeue ; insert an elemant into the queue
+        |-Deqeue ; delete in elemant from the queue
+4. All operatins perform from two end points.
+   |- Front - delete an elemant from the Front end.
+   |- REAR - Insert an elemant from the Rear end.
+
+5. condition
+     a. FRONT = REAR ==-1, Queue is empty.
+     b. FRONT == REAR, single elemant.
+     c. REAR == SIZE-1,QUEUE is full.
+
