@@ -1,0 +1,34 @@
+tree ds
+---------
+1. tree is a non-linear DS.
+2. tree consist of nodes connected by the edges.
+3.  IQ why we use tree data structure IQ
+    inorder to perform any operation in a linear DS, the time complexity will increase when increase in data.
+4.  Terminology
+   a. NOde ; A node is an entity that consist key/value and refernce a child nodes
+   Edge. it a link between two nodes.
+   Root; the top-most node of the tree.
+   tree height: Height of tree is the height of root node.
+   tree depth: depth of the deepest node is the depth of the tree.
+
+5. Bineary tree
+   a. bineary tree is a tree data structre
+   b. each parent node can have at-most two child nodes.
+   c. each node consist three parts:
+      - refrences to the left child
+      - data/values
+      - refrences to the right child.
+
+   d. Type of bineary tree:
+        i.Full bineary tree
+          - every  node has either two or no child nodes.
+          - it is also known as proper bineary tree.
+
+         ii. Perfact bineary tree.
+             -  every internal nodes has a exactly two child nodes and all the nodes are at the same level.
+
+         iii. Complete bineary tree
+              - all the child nodes lean towards the left.
+
+    6. tree Traversing
+        pre-order tree traversing: root->left->right
